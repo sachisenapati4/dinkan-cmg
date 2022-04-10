@@ -37,12 +37,12 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-            InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('📢 Updates', url='https://t.me/TeamEvamaria')
+            InlineKeyboardButton('🛡️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
+            InlineKeyboardButton('📀 Group', url='https://t.me/+ImlrofNsB78yYjll')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
-            text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\nIf you have any questions & doubts about using me contact support.</b>",
+            text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️</b>",
             reply_markup=reply_markup)
     else:
         settings = await get_settings(message.chat.id)
@@ -72,7 +72,7 @@ async def leave_a_chat(bot, message):
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
             chat_id=chat,
-            text='<b>Hello Friends, \nMy admin has told me to leave from group so i go! If you wanna add me again contact my support group.</b>',
+            text='<b>Hello Friends, \nMy admin has told me to leave from group so i go! If you wanna add me again contact my crator.</b>',
             reply_markup=reply_markup,
         )
 
@@ -111,7 +111,7 @@ async def disable_chat(bot, message):
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
             chat_id=chat_, 
-            text=f'<b>Hello Friends, \nMy admin has told me to leave from group so i go! If you wanna add me again contact my support group.</b> \nReason : <code>{reason}</code>',
+            text=f'<b>Hello Friends, \nMy admin has told me to leave from group so i go! If you wanna add me again contact my creator.</b> \nReason : <code>{reason}</code>',
             reply_markup=reply_markup)
         await bot.leave_chat(chat_)
     except Exception as e:
