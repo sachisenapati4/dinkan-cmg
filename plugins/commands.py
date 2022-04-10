@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria')
+                InlineKeyboardButton('🎬 Movies', url='https://t.me/+ImlrofNsB78yYjll')
             ],
             [
-                InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('🛡️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -44,11 +44,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria')
+            InlineKeyboardButton('🎬 Movies', url='https://t.me/+ImlrofNsB78yYjll'),
+            InlineKeyboardButton('🔊 OTT Updates', url='https://t.me/+P2pzZRlZ8ZgzMDA1')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('🛡️ Help', callback_data='help'),
+            InlineKeyboardButton('👁️‍🗨️ About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -67,12 +67,12 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "⚡️Join Updates Channel⚡️", url=invite_link.invite_link
                 )
             ]
         ]
 
-        if message.command[1] != "subscribe":
+        if message.command[1] != "𝙋𝙡𝙚𝙖𝙨𝙚 𝙅𝙤𝙞𝙣 𝙊𝙪𝙧 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 𝙂𝙚𝙩 𝙈𝙤𝙫𝙞𝙚 𝙁𝙞𝙡𝙚𝙨😇":
             try:
             	kk, file_id = message.command[1].split("_", 1)
             	pre = 'checksubp' if kk == 'filep' else 'checksub' 
@@ -90,11 +90,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria')
+            InlineKeyboardButton('🎬 Movies', url='https://t.me/+ImlrofNsB78yYjll'),
+            InlineKeyboardButton('🔊 OTT Updates', url='https://t.me/+P2pzZRlZ8ZgzMDA1')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('🛡️ Help', callback_data='help'),
+            InlineKeyboardButton('👁️‍🗨️ About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
