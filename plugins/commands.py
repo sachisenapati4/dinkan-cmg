@@ -44,8 +44,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🎬 Movies', url='https://t.me/+ImlrofNsB78yYjll'),
-            InlineKeyboardButton('🔊 OTT Updates', url='https://t.me/+P2pzZRlZ8ZgzMDA1')
+            InlineKeyboardButton('🔊 OTT Updates', url='https://t.me/+P2pzZRlZ8ZgzMDA1'),
+            InlineKeyboardButton('🎬 Movies', url='https://t.me/+ImlrofNsB78yYjll')
             ],[
             InlineKeyboardButton('🛡️ Help', callback_data='help'),
             InlineKeyboardButton('👁️‍🗨️ About', callback_data='about')
@@ -90,8 +90,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🎬 Movies', url='https://t.me/+ImlrofNsB78yYjll'),
-            InlineKeyboardButton('🔊 OTT Updates', url='https://t.me/+P2pzZRlZ8ZgzMDA1')
+            InlineKeyboardButton('🔊 OTT Updates', url='https://t.me/+P2pzZRlZ8ZgzMDA1'),
+            InlineKeyboardButton('🎬 Movies', url='https://t.me/+ImlrofNsB78yYjll')
             ],[
             InlineKeyboardButton('🛡️ Help', callback_data='help'),
             InlineKeyboardButton('👁️‍🗨️ About', callback_data='about')
