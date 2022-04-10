@@ -13,25 +13,21 @@ class script(object):
 ✯ 𝙎𝙚𝙧𝙫𝙚𝙧: 𝙃𝙚𝙧𝙤𝙠𝙪
 ✯ 𝘽𝙪𝙞𝙡𝙙 𝙎𝙩𝙖𝙩𝙪𝙨: 𝙫1.0.1 [ 𝘽𝙀𝙏𝘼 ]"""
     SOURCE_TXT = """<b>NOTE:</b>
-- Eva Maria is a open source project. 
-- Source - https://github.com/EvamariaTG/EvaMaria  
+- 𝙃𝙚𝙢𝙗𝙖𝙙𝙖 𝙆𝙚𝙡𝙡𝙖𝙝𝙝... 𝙉𝙞𝙣𝙖𝙠𝙠 𝙎𝙤𝙪𝙧𝙘𝙚 𝘾𝙤𝙙𝙚 𝙏𝙝𝙖𝙧𝙪𝙡𝙡𝙖....🙂"""
+    MANUELFILTER_TXT = """𝙃𝙚𝙡𝙥: <b>𝙁𝙞𝙡𝙩𝙚𝙧𝙨</b>
 
-<b>DEVS:</b>
-- <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
-    MANUELFILTER_TXT = """Help: <b>Filters</b>
+- 𝙁𝙞𝙡𝙩𝙚𝙧 𝙞𝙨 𝙩𝙝𝙚 𝙛𝙚𝙖𝙩𝙪𝙧𝙚 𝙬𝙚𝙧𝙚 𝙪𝙨𝙚𝙧𝙨 𝙘𝙖𝙣 𝙨𝙚𝙩 𝙖𝙪𝙩𝙤𝙢𝙖𝙩𝙚𝙙 𝙧𝙚𝙥𝙡𝙞𝙚𝙨 𝙛𝙤𝙧 𝙖 𝙥𝙖𝙧𝙩𝙞𝙘𝙪𝙡𝙖𝙧 𝙠𝙚𝙮𝙬𝙤𝙧𝙙 𝙖𝙣𝙙 𝙀𝙫𝙖𝙈𝙖𝙧𝙞𝙖 𝙬𝙞𝙡𝙡 𝙧𝙚𝙨𝙥𝙤𝙣𝙙 𝙬𝙝𝙚𝙣𝙚𝙫𝙚𝙧 𝙖 𝙠𝙚𝙮𝙬𝙤𝙧𝙙 𝙞𝙨 𝙛𝙤𝙪𝙣𝙙 𝙩𝙝𝙚 𝙢𝙚𝙨𝙨𝙖𝙜𝙚
 
-- Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
+<b>𝙉𝙊𝙏𝙀:</b>
+1. 𝘿𝙞𝙣𝙠𝙖𝙣 𝙨𝙝𝙤𝙪𝙡𝙙 𝙝𝙖𝙫𝙚 𝙖𝙙𝙢𝙞𝙣 𝙥𝙧𝙞𝙫𝙞𝙡𝙡𝙖𝙜𝙚.
+2. 𝙤𝙣𝙡𝙮 𝙖𝙙𝙢𝙞𝙣𝙨 𝙘𝙖𝙣 𝙖𝙙𝙙 𝙛𝙞𝙡𝙩𝙚𝙧𝙨 𝙞𝙣 𝙖 𝙘𝙝𝙖𝙩.
+3. 𝙖𝙡𝙚𝙧𝙩 𝙗𝙪𝙩𝙩𝙤𝙣𝙨 𝙝𝙖𝙫𝙚 𝙖 𝙡𝙞𝙢𝙞𝙩 𝙤𝙛 64 𝙘𝙝𝙖𝙧𝙖𝙘𝙩𝙚𝙧𝙨.
 
-<b>NOTE:</b>
-1. eva maria should have admin privillage.
-2. only admins can add filters in a chat.
-3. alert buttons have a limit of 64 characters.
-
-<b>Commands and Usage:</b>
-• /filter - <code>add a filter in chat</code>
-• /filters - <code>list all the filters of a chat</code>
-• /del - <code>delete a specific filter in chat</code>
-• /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
+<b>𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙖𝙣𝙙 𝙐𝙨𝙖𝙜𝙚:</b>
+• /filter - <code>𝙖𝙙𝙙 𝙖 𝙛𝙞𝙡𝙩𝙚𝙧 𝙞𝙣 𝙘𝙝𝙖𝙩</code>
+• /filters - <code>𝙡𝙞𝙨𝙩 𝙖𝙡𝙡 𝙩𝙝𝙚 𝙛𝙞𝙡𝙩𝙚𝙧𝙨 𝙤𝙛 𝙖 𝙘𝙝𝙖𝙩</code>
+• /del - <code>𝙙𝙚𝙡𝙚𝙩𝙚 𝙖 𝙨𝙥𝙚𝙘𝙞𝙛𝙞𝙘 𝙛𝙞𝙡𝙩𝙚𝙧 𝙞𝙣 𝙘𝙝𝙖𝙩</code>
+• /delall - <code>𝙙𝙚𝙡𝙚𝙩𝙚 𝙩𝙝𝙚 𝙬𝙝𝙤𝙡𝙚 𝙛𝙞𝙡𝙩𝙚𝙧𝙨 𝙞𝙣 𝙖 𝙘𝙝𝙖𝙩 (𝙘𝙝𝙖𝙩 𝙤𝙬𝙣𝙚𝙧 𝙤𝙣𝙡𝙮)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
 - Eva Maria Supports both url and alert inline buttons.
