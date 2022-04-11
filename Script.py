@@ -9,7 +9,7 @@ class script(object):
 ➣ 𝘾𝙧𝙚𝙖𝙩𝙤𝙧: <a href=https://t.me/TitterBuck>☬ 𝔻𝔼𝔼ℙ𝔸𝕂 ☬</a>
 ➣ 𝙇𝙞𝙗𝙧𝙖𝙧𝙮: 𝙋𝙧𝙤𝙜𝙧𝙖𝙢 👨‍💻
 ➣ 𝙇𝙖𝙣𝙜𝙪𝙖𝙜𝙚: 𝙋𝙮𝙩𝙝𝙤𝙣 3 
-➣ 𝘿𝙖𝙩𝙖 𝘽𝙖𝙨𝙚: 𝙈𝙖𝙣𝙜𝙤 𝙙𝙗 
+➣ 𝘿𝙖𝙩𝙖 𝘽𝙖𝙨𝙚: 𝙈𝙖𝙣𝙜𝙤𝘿𝘽
 ➣ 𝙎𝙚𝙧𝙫𝙚𝙧: 𝙃𝙚𝙧𝙤𝙠𝙪
 ➣ 𝘽𝙪𝙞𝙡𝙙 𝙎𝙩𝙖𝙩𝙪𝙨: 𝙫1.0.1 [ 𝘽𝙀𝙏𝘼 ]"""
     SOURCE_TXT = """𝙃𝙚𝙢𝙗𝙖𝙙𝙖 𝙆𝙚𝙡𝙡𝙖𝙝𝙝... 𝙉𝙞𝙣𝙖𝙠𝙠 𝙎𝙤𝙪𝙧𝙘𝙚 𝘾𝙤𝙙𝙚 𝙏𝙝𝙖𝙧𝙪𝙡𝙡𝙖....🙂"""
@@ -37,7 +37,7 @@ class script(object):
 3. 𝘽𝙪𝙩𝙩𝙤𝙣𝙨 𝙨𝙝𝙤𝙪𝙡𝙙 𝙗𝙚 𝙥𝙧𝙤𝙥𝙚𝙧𝙡𝙮 𝙥𝙖𝙧𝙨𝙚𝙙 𝙖𝙨 𝙢𝙖𝙧𝙠𝙙𝙤𝙬𝙣 𝙛𝙤𝙧𝙢𝙖𝙩
 
 <b>𝙐𝙍𝙇 𝙗𝙪𝙩𝙩𝙤𝙣𝙨:</b>
-<code>[Button Text](buttonurl:https://t.me/EvaMariaBot)</code>
+<code>[Button Text](buttonurl:https://t.me/DinkanBot)</code>
 
 <b>𝘼𝙡𝙚𝙧𝙩 𝙗𝙪𝙩𝙩𝙤𝙣𝙨:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
