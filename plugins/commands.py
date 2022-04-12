@@ -72,7 +72,8 @@ async def start(client, message):
             ]
         ]
 
-        if message.command[1] != "𝙋𝙡𝙚𝙖𝙨𝙚 𝙅𝙤𝙞𝙣 𝙊𝙪𝙧 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 𝙂𝙚𝙩 𝙈𝙤𝙫𝙞𝙚 𝙁𝙞𝙡𝙚𝙨😇":
+        if message.command[1] != "താഴെ കാണുന്ന Join Update Channel ബട്ടനിൽ ക്ലിക്ക് ചെയ്ത് ചാനലിൽ ജോയിൻ ആയശേഷം Try Again ബട്ടനിൽ ക്ലിക്ക് ചെയുമ്പോൾ മൂവി ഫയൽ ലഭിക്കുന്നതാണ് 🥰
+After clicking on the Join Update Channel button below and joining the channel and then clicking on the Try Again button, you will get the movie file 🤗":
             try:
             	kk, file_id = message.command[1].split("_", 1)
             	pre = 'checksubp' if kk == 'filep' else 'checksub' 
