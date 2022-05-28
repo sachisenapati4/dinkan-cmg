@@ -778,7 +778,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("<b>Hey Dude...</b> \n\n<b>Make Sure The Movie Is Released in OTT or DVD File is Available📂</b> \n\n<b>If The Movie is Alredy Available in OTT , Make Sure That Your Spelling is Correct [Click On The Correct Spelling From Bellow👇]</b>",
+    await msg.reply("<b>Make Sure The Movie Is Available in OTT or DVD📂</b> \n\n<b>If The Movie is Alredy Available in OTT or DVD, Check Your Spelling [Click On The Correct Spelling From Bellow👇]</b>",
                     reply_markup=InlineKeyboardMarkup(btn))
 
 
