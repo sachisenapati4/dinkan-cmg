@@ -135,7 +135,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('<b>🧐 This Movie is Not Available Right Now 🤧. If Looking For Pre DVD You Will Not Get It From Here🚫</b>')
+            k = await query.message.edit('<b>🧐 This Movie is Not Available Right Now 🤧</b>')
             await asyncio.sleep(10)
             await k.delete()
 
@@ -737,7 +737,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("<b>🧐 This Movie is Not Available Right Now 🤧. If Looking For Pre DVD You Will Not Get It From Here🚫</b>")
+        k = await msg.reply("<b>🧐 This Movie is Not Available Right Now 🤧</b>")
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -766,7 +766,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("<b>🧐 This Movie is Not Available Right Now 🤧. If Looking For Pre DVD You Will Not Get It From Here🚫</b>")
+        k = await msg.reply("<b>🧐 This Movie is Not Available Right Now 🤧</b>")
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -778,7 +778,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("<b>Make Sure The Movie Is Available in OTT or DVD📂</b> \n\n<b>If The Movie is Alredy Available in OTT or DVD, Check Your Spelling [Click On The Correct Spelling From Bellow👇]</b>",
+    await msg.reply("<b>👇 Select The Movie You Want From The List Below ✨</b>",
                     reply_markup=InlineKeyboardMarkup(btn))
 
 
