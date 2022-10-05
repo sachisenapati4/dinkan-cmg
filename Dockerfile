@@ -10,4 +10,4 @@ RUN mkdir /EvaMaria
 WORKDIR /EvaMaria
 COPY . .
 COPY start.sh  .
-CMD ["bash", "start.sh"]
+CMD ["python3", "bot.py"]
