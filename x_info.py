@@ -15,7 +15,6 @@ ADMINS = [1979355984]
 CHANNELS = [-1001733173292]
 AUTH_USERS = []
 AUTH_CHANNEL = [-1001797005272]
-LOG_CHANNEL = [-1001678820318]
 
 # MongoDB information
 DATABASE_URI = "mongodb+srv://DNK:DNK@cluster0.qz50w.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
