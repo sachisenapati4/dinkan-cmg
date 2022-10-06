@@ -24,7 +24,7 @@ PICS = (environ.get('PICS', 'https://telegra.ph/file/7e56d907542396289fee4.jpg h
 # Admins, Channels & Users
 ADMIN = 1994878828
 #ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in ("1994878828" "1979355984").split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('-1001733173292').split()]
+CHANNELS = -1001733173292
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = "-1001797005272"
