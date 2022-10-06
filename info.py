@@ -35,7 +35,7 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 # MongoDB information
 DATABASE_URI = "mongodb+srv://DNK:DNK@cluster0.qz50w.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 DATABASE_NAME = "DNK"
-COLLECTION_NAME = "channel_files"
+COLLECTION_NAME = "Telegram_files"
 
 # Others
 LOG_CHANNEL = -1001678820318
