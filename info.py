@@ -43,7 +43,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Cenimagram')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
-CUSTOM_FILE_CAPTION =f""" <b>{file_name}</b> 
+CUSTOM_FILE_CAPTION =""" <b>{file_name}</b> 
 
 <b>കൂടുതൽ സിനിമകൾക്കും സീരിസുകൾക്കും വേണ്ടി ഞങ്ങളുടെ ഗ്രൂപ്പിൽ ജോയിൻ ചെയ്യു...👇👇
 
