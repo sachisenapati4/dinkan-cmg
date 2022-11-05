@@ -67,7 +67,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "⚡️Join Updates Channel⚡️", url=invite_link.invite_link
+                    "⚡️ JOIN UPDATE CHANNEL ⚡️", url=invite_link.invite_link
                 )
             ]
         ]
@@ -76,12 +76,14 @@ async def start(client, message):
             try:
             	kk, file_id = message.command[1].split("_", 1)
             	pre = 'checksubp' if kk == 'filep' else 'checksub' 
-            	btn.append([InlineKeyboardButton(" 🔄 Try Again", callback_data=f"{pre}#{file_id}")])
+            	btn.append([InlineKeyboardButton(" 🔄 TRY AGAIN 🔄", callback_data=f"{pre}#{file_id}")])
             except IndexError:
-                btn.append([InlineKeyboardButton(" 🔄 Try Again", url=f"https://t.me/{temp.U_NAME}/{message.command[1]}")])
+                btn.append([InlineKeyboardButton(" 🔄 TRY AGAIN 🔄", url=f"https://t.me/{temp.U_NAME}/{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**താഴെ കാണുന്ന "⚡️ JOIN UPDATE CHANNEL ⚡️"എന്ന ബട്ടണിൽ ക്ലിക്ക് ചെയ്ത് ചാനലിൽ ജോയിൻ ചെയ്ത ശേഷം "🔄 TRY AGAIN 🔄" എന്ന ബട്ടണിൽ അമർത്തിയാൽ സിനിമ ലഭിക്കുന്നതാണ്...😍
+
+\n Click on "⚡️ JOIN UPDATE CHANNEL ⚡️" button below and join the channel and then press "🔄 TRY AGAIN 🔄" button to get the movie...😍‌‌**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
