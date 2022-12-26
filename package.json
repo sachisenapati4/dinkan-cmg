@@ -3,8 +3,8 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "build":  
-        "test": 
+        "build": "echo \"No build specified\",
+        "test": "echo \"No test specified\",
         "start": "python3 bot.py"
     },
     "repository": {
